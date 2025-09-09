@@ -45,16 +45,21 @@ we will be predicting the probability of the given input being positive class
 from the given data the transition almost occurs at x = 4.0
 Enter a number: 3
 the probability of input being in class 1 is : 0.27
+since probability is less than 0.5 it is negative class
+Enter 0 to predict more and 1 to exit :
 ```
 ---
 ## 📊 Mathematics
 
 . Sigmoid Function: 
+  
   hθ​(x)=1/(1+e−(θ0​+θ1​x)1​)
+  
 . Cost Function:
+  
   J(θ)=−(1/m)*∑[y(i)log(hθ​(x(i)))+(1−y(i))log(1−hθ​(x(i)))] from i=1-m 
+  
 . Gradient Descent Update Rule:
+  
   θ:=θ−α⋅m1​XT(hθ​(X)−y)
 
-since probability is less than 0.5 it is negative class
-Enter 0 to predict more and 1 to exit :
