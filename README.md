@@ -57,7 +57,7 @@ Enter 0 to predict more and 1 to exit :
   
 . Cost Function:
   
-  J(θ)=−(1/m)*∑[y(i)log(hθ​(x(i)))+(1−y(i))log(1−hθ​(x(i)))] from i=1-m 
+  J(θ)=−(1/m)*∑[y(i)log(hθ​(x(i)))+(1−y(i))log(1−hθ​(x(i)))] from i=1 to m 
   
 . Gradient Descent Update Rule:
   
